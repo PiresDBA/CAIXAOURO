@@ -1,0 +1,44 @@
+{
+  "urls": "https://venda-imoveis.caixa.gov.br/sistema/lista-leiloes.asp?opcao=2",
+  "whatsapp": {
+    "provider": "callmebot",
+    "phone": "5511991502299",
+    "api_key": "000000"
+  },
+  "finance": {
+    "auction_fee_pct": 7.0,
+    "fixed_costs": 180.0,
+    "bid_multiplier": 1.35,
+    "min_margin_pct": 15.0
+  },
+  "filters": {
+    "include": [
+      "ouro 18k",
+      "ouro 24k",
+      "barra",
+      "moeda",
+      "corrente",
+      "pulseira",
+      "anel",
+      "alianca",
+      "pingente"
+    ],
+    "exclude": [
+      "pedra",
+      "diamante",
+      "zirconia",
+      "esmeralda",
+      "rubi",
+      "safira",
+      "prata",
+      "folheado",
+      "banhado",
+      "fantasia",
+      "aco",
+      "cristal"
+    ]
+  },
+  "gold_api": "https://economia.awesomeapi.com.br/last/XAU-BRL",
+  "schedule_time": "08:00",
+  "ocr_enabled": true
+}

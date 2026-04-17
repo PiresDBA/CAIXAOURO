@@ -1,0 +1,17 @@
+# Ambiente Virtual Python
+venv/
+.env
+*.pyc
+__pycache__/
+
+# Dados temporários e logs
+data/
+*.log
+.DS_Store
+Thumbs.db
+
+# Configurações locais de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
